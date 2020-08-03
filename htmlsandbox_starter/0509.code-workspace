@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../csssandbox_starter"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "csssandbox_starter"
+	}
+}

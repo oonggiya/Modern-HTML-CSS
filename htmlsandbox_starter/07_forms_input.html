@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms & Input</title>
+</head>
+<body>
+  <form action="process.php">
+    <!-- text -->
+    <div>
+      <label for="name">Name</label><br>
+      <input type="text" id="name" name="name">
+    </div>
+    <!-- email -->
+    <div>
+      <label for="email">Email</label><br>
+      <input type="email" name="email" id="email" placeholder="Enter an email">
+    </div>
+    <!-- textarea -->
+    <div>
+      <label for="message">Message</label><br>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+      <label for="sex">Sex</label>
+      <select name="sex" id="sex">
+      <option value="male" selected>Male</option>
+      <option value="female">feMale</option>
+      <option value="other">other</option>
+    </select>
+    </div>
+    <div>
+      <label for="age">Age</label><br>
+      <input type="number" name="age" id="age">
+    </div>
+    <div>
+      <label for="birthdate">birth</label><br>
+      <input type="date" name="birthdate" id="birthdate">
+    </div>
+
+    <div>
+      <label for="Membership">Membership</label>
+      <input type="radio" name="membership" value="simple"
+      id="membership"> simple
+      <input type="radio" name="membership" value="standard"
+      id="membership" checked> standard
+      <input type="radio" name="membership" value="super"
+      id="membership"> super
+    
+    </div>
+    <!-- checkbox -->
+    <div>
+      <label for="Likes">I Like..</label>
+      <input type="checkbox" name="Likes" value="Bike"
+      id="Likes"> Bike
+      <input type="checkbox" name="Likes" value="Cycle"
+      id="Likes" > Cycle
+      <input type="checkbox" name="Likes" value="Car"
+      id="Likes"> Car
+     </div>
+      <!-- Input submit -->
+      <input type="submit" value="submit">
+      <!-- button submit -->
+      <!-- button reset -->
+     <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
